@@ -20,10 +20,10 @@ describe("calculate", () => {
 });
 
 describe("subtract", () => {
-test("두 수를 뺀다", () => {
-expect(subtract(10, 4)).toBe(6);
-});
-test("음수 결과도 처리한다", () => {
-expect(subtract(3, 10)).toBe(-7);
-});
+  test("두 수를 뺀다", () => {
+    expect(subtract(10, 4)).toBe(6);
+  });
+  test("음수 결과도 처리한다", () => {
+    expect(subtract(3, 10)).toBe(-7);
+  });
 });

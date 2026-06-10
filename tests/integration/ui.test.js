@@ -27,8 +27,8 @@ describe("계산기 UI 통합", () => {
     document.querySelector('[data-testid="btn-subtract"]').click();
     expect(document.querySelector('[data-testid="display"]').textContent).toBe("2");
     });
- 
-  test("초기화 버튼이 입력과 display를 리셋한다", () => {
+  
+    test("초기화 버튼이 입력과 display를 리셋한다", () => {
     document.getElementById("inputA").value = "1";
     document.getElementById("inputB").value = "2";
     document.querySelector('[data-testid="btn-add"]').click();
